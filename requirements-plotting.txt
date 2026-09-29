@@ -1,0 +1,6 @@
+# Optional dependencies used only by figure generation in locus-to-gene-mapper-skill.
+# Install on top of the core requirements: pip install -r requirements-plotting.txt
+-r requirements.txt
+matplotlib==3.11.2
+seaborn==0.13.2
+pandas==3.0.6

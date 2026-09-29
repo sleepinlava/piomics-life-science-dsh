@@ -1,0 +1,28 @@
+{
+  "name": "piomics-life-science-dsh",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "PiOmics life-science skills for DeepSeek Harness",
+  "license": "SEE LICENSE IN NOTICE.md",
+  "files": [
+    "cordis.patch.yml",
+    "skills/",
+    "requirements.txt",
+    "requirements-plotting.txt",
+    "README.md",
+    "NOTICE.md"
+  ],
+  "exports": {
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  }
+}

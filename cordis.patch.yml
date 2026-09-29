@@ -1,0 +1,9 @@
+# PIOMICS_LS_SKILLS_DIR must point to this package's absolute skills/ path.
+- insert:
+    - id: piomics-life-science-skills
+      name: '@deepseek-ai/dsh-skill-filesystem'
+      config:
+        providerName: piomics-life-science
+        includeDefaultRoots: false
+        customSkillDirs:
+          - !!js process.env.PIOMICS_LS_SKILLS_DIR

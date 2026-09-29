@@ -1,0 +1,3 @@
+# Core runtime dependencies for the piomics-life-science skills.
+# Pinned to the versions verified in docs/runtime.md.
+requests==2.34.2
